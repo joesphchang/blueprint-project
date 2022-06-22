@@ -1,0 +1,125 @@
+.background-image {
+    background-image: url('../../images/hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.volunteer-container {
+    background: rgb(40, 94, 136);
+    background: linear-gradient(93deg, rgba(40, 94, 136, 1) 0%, rgba(62, 140, 189, 1) 50%);
+    height: 40vh;
+    width: 100%;
+    clip-path: polygon(0 0, 25% 0, 42% 100%, 0 100%);
+}
+
+/* Form Containers */
+.form-container {
+    width: 375px;
+    height: 275px;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+h3 {
+    font-size: 32px;
+    color: white;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+::placeholder {
+    color: white;
+}
+
+.form-inputs {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.input-email {
+    width: 95%;
+    height: 35px;
+    padding: 5px;
+    background-color: #5C89AF;
+    color: white;
+    border: solid;
+    border-width: 2px;
+}
+
+.input-phone {
+    width: 47%;
+    height: 35px;
+    padding: 5px;
+    background-color: #5C89AF;
+    color: white;
+    border: solid;
+    border-width: 2px;
+}
+
+.input-zipcode {
+    width: 47%;
+    height: 35px;
+    padding: 5px;
+    background-color: #5C89AF;
+    color: white;
+    border: solid;
+    border-width: 2px;
+    margin-left: 3px;
+}
+
+.input-btn {
+    align-items: center;
+    background-color: #88D4FB;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 30px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-top: 5px;
+    width: 95%;
+}
+
+.input-btn:hover,
+.input-btn:focus {
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+.input-btn:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+}
+
+.input-btn:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+/* Images */
+.logo-img {
+    height: 125px;
+    margin-left: 45px;
+    margin-top: 75px;
+}

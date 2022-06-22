@@ -1,0 +1,49 @@
+/* Footer Div */
+.footer-container {
+    background-color: #1B4369;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+}
+
+/* Samantha Hall Footer Logo */
+.footer-logo {
+    height: 75px;
+    margin-top: 25px;
+    margin-left: 25px; 
+}
+
+/* DIV BELOW IMAGE TAG */
+.footer-links {
+    width: 50%;
+}
+
+/* 1st P Tag */
+.footer-text {
+    border: 1px solid #ffff;
+    width: 75%;
+    text-align: center;
+    padding: 10px;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 1px;
+    margin-top: 20px;
+}
+
+/* Links below 1st P Tag DIV */
+.footer {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    float: right;
+    justify-content: end;
+    margin-right: 15px;
+}
+
+/* Privacy Policy Anchor Tag */
+a {
+    color: #ffff;
+    padding: 15px;
+}
