@@ -3,14 +3,14 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 40vh;
+    height: 65vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .volunteer-container {
     background: rgb(40, 94, 136);
     background: linear-gradient(93deg, rgba(40, 94, 136, 1) 0%, rgba(62, 140, 189, 1) 50%);
-    height: 40vh;
+    height: 65vh;
     width: 100%;
     clip-path: polygon(0 0, 25% 0, 42% 100%, 0 100%);
 }
@@ -19,7 +19,7 @@
 .form-container {
     width: 375px;
     height: 275px;
-    margin-left: 45px;
+    margin-left: 75px;
     margin-top: 25px;
 }
 
@@ -119,7 +119,7 @@ h3 {
 
 /* Images */
 .logo-img {
-    height: 125px;
-    margin-left: 45px;
-    margin-top: 75px;
+    height: 150px;
+    margin-left: 75px;
+    margin-top: 150px;
 }
