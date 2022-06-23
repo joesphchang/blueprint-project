@@ -1,13 +1,15 @@
 .about-container {
-    width: 55%;
-    height: 75vh;
+    width: 90%;
+    height: 85vh;
     margin: auto;
-    margin-top: 75px;
+    margin-top: 35px;
 }
 
 .about-container h1 {
     color: #12294E;
     margin-bottom: 35px;
+    font-size: 24px;
+    width: 200px;
 }
 
 /* Section 1 */
@@ -17,17 +19,17 @@
 }
 
 .image-1 {
-    width: 400px;
-    height: 250px;
+    width: 200px;
+    height: 120px;
 }
 
 .image-description {
-    margin-top: 100px;
-    padding-right: 50px;
+    margin-top: 40px;
+    padding-right: 20px;
     position: absolute;
-    left: 375px;
-    height: 75px;
-    width: 350px;
+    left: 150px;
+    height: 50px;
+    width: 200px;
     color: white;
     background: rgb(40, 94, 136);
     background: linear-gradient(57deg, rgba(40, 94, 136, 1) 67%, rgba(170, 161, 94, 1) 100%);
@@ -35,24 +37,74 @@
 }
 
 .image-description-p {
-    width: 250px;
-    margin-left: 15px;
-    font-size: 18px;
+    width: 175px;
+    margin-left: 10px;
+    font-size: 12px;
 }
 
 /* Section 2 */
 .section-2-paragraph {
-    display: flex;
     margin-top: 25px;
 }
 
 .image-2 {
-    width: 650px;
-    height: 335px;
+    width: 300px;
+    height: 150px;
 }
 
 .s2-p {
-    font-size: 16px;
+    font-size: 11px;
     font-weight: 100;
-    margin-right: 50px;
+    margin: 4px; 
+}
+
+/* Media Queries */
+@media only screen and (min-width: 800px) {
+    .about-container {
+        width: 55%;
+        height: 80vh;
+        margin-top: 55px;
+    }
+    .about-container h1 {
+        margin-bottom: 35px;
+        font-size: 32px;
+    }
+    /* Section 1 */
+    .section-1-paragraph {
+        display: flex;
+        position: relative;
+    }
+    .image-1 {
+        width: 400px;
+        height: 250px;
+    }
+    .image-description {
+        margin-top: 100px;
+        padding-right: 50px;
+        position: absolute;
+        left: 375px;
+        height: 75px;
+        width: 350px;
+        color: white;
+        opacity: .85;
+    }
+    .image-description-p {
+        width: 250px;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+    /* Section 2 */
+    .section-2-paragraph {
+        display: flex;
+        margin-top: 25px;
+    }
+    .image-2 {
+        width: 650px;
+        height: 335px;
+    }
+    .s2-p {
+        font-size: 16px;
+        font-weight: 100;
+        margin-right: 50px;
+    }
 }

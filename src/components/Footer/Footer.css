@@ -1,23 +1,22 @@
 /* Footer Div */
 .footer-container {
     background-color: #1B4369;
-    height: 13vh;
+    height: 40vh;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     color: #ffff;
+    text-align: center;
 }
 
 /* Samantha Hall Footer Logo */
 .footer-logo {
     height: 75px;
     margin-top: 25px;
-    margin-left: 25px; 
 }
 
 /* DIV BELOW IMAGE TAG */
 .footer-links {
-    width: 50%;
+    width: 100%;
+    margin: auto;
 }
 
 /* 1st P Tag */
@@ -26,19 +25,12 @@
     width: 75%;
     text-align: center;
     padding: 10px;
-    float: right;
-    margin-right: 15px;
-    margin-bottom: 1px;
-    margin-top: 20px;
+    margin: 10px auto;
 }
 
 /* Links below 1st P Tag DIV */
 .footer {
-    width: 40%;
-    display: flex;
-    align-items: center;
-    float: right;
-    justify-content: end;
+    width: 100%;
     margin-right: 15px;
 }
 
@@ -46,4 +38,58 @@
 a {
     color: #ffff;
     padding: 15px;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 800px) {
+/* Footer Div */
+    .footer-container {
+        background-color: #1B4369;
+        height: 13vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        color: #ffff;
+    }
+
+    /* Samantha Hall Footer Logo */
+    .footer-logo {
+        height: 75px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    /* DIV BELOW IMAGE TAG */
+    .footer-links {
+        width: 50%;
+        margin-left: 50%;
+    }
+
+    /* 1st P Tag */
+    .footer-text {
+        border: 1px solid #ffff;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        float: right;
+        margin-right: 15px;
+        margin-bottom: 1px;
+        margin-top: 20px;
+    }
+
+    /* Links below 1st P Tag DIV */
+    .footer {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        float: right;
+        justify-content: end;
+        margin-right: 15px;
+    }
+
+    /* Privacy Policy Anchor Tag */
+    a {
+        color: #ffff;
+        padding: 15px;
+    }
 }
